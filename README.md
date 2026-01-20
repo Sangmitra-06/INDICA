@@ -203,7 +203,7 @@ with open('Dataset/dataset.json', 'r') as f:
     indica_data = json.load(f)
 
 # Access questions by domain
-traffic&transport_questions = [q for q in indica_data if q['question_category'] == 'Traffic & Transport Behavior']
+traffic_transport_questions = [q for q in indica_data if q['question_category'] == 'Traffic and transport behavior']
 ```
 
 ### 5. Run Evaluation
