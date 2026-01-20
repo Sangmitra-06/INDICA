@@ -51,7 +51,7 @@ The dataset is provided in JSON format.
 - **`question_id`**: Unique identifier (e.g., `q_001`)
 - **`question_text`**: The cultural commonsense question
 - **Category Hierarchy**:
-  - `question_category`: High-level domain (e.g., *Interpersonal Relations*, *Education*)
+  - `question_domain`: High-level domain (e.g., *Interpersonal Relations*, *Education*)
   - `question_subcategory`: Subcategory within the domain
   - `question_topic`: The granular topic being addressed
 
