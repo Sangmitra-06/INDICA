@@ -2,7 +2,7 @@
 
 This is the repository for [Common to _Whom_? Regional Cultural Commonsense and LLM Bias in India](https://arxiv.org/abs/2510.20543). 
 
-**📦 Dataset:** Available on [Hugging Face](https://huggingface.co/datasets/Sangmitra-06/INDICA))
+**📦 Dataset:** Available on [Hugging Face](https://huggingface.co/datasets/Sangmitra-06/INDICA)
 
 Authors: Sangmitra Madhusudan, Trush Shashank More, Steph Buongiorno, Renata Dividino, Jad Kabbara and Ali Emami
 
