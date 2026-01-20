@@ -14,8 +14,7 @@ Existing cultural commonsense benchmarks treat nations as _monolithic_, assuming
 ```
 .
 ├── Dataset/
-│   ├── dataset_slice.json
-│   └── full_dataset.json
+│   └── dataset.json
 └── Experiments/
     ├── DatasetCreation/
     │   ├── TopicExtraction.py
