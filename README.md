@@ -64,69 +64,69 @@ For each of the five regions (**North**, **South**, **East**, **West**, **Centra
 ### Example Entry
 ```json
 {
-    "question_id": "q_012",
-    "question_text": "Are tinted windows allowed on vehicles, and what types of vehicles most commonly have them?",
-    "question_category": "Traffic and transport behavior",
-    "question_subcategory": "Streets and traffic",
-    "question_topic": "Understanding Local Traffic Regulations",
-    "North": {
-      "answer": [
-        "In North India, tinted windows are not allowed on vehicles."
-      ]
+  "question_id": "q_196",
+  "question_text": "Are tinted windows allowed on vehicles, and what types of vehicles most commonly have them?",
+  "question_domain": "Traffic and transport behavior",
+  "question_subcategory": "Streets and traffic",
+  "question_topic": "Understanding Local Traffic Regulations",
+  "North": {
+    "answer": [
+      "In North India, tinted windows are not allowed on vehicles."
+    ]
+  },
+  "South": {
+    "answer": [
+      "In South India, tinted windows are not allowed on vehicles."
+    ]
+  },
+  "East": {
+    "answer": [
+      "In East India, tinted windows are not allowed on vehicles."
+    ]
+  },
+  "West": {
+    "answer": [
+      "In West India, tinted windows are not allowed on vehicles."
+    ]
+  },
+  "Central": {
+    "answer": [
+      "In Central India, tinted windows are not allowed on vehicles."
+    ]
+  },
+  "pairwise_agreements": {
+    "South_North": {
+      "agreement": true
     },
-    "South": {
-      "answer": [
-        "In South India, tinted windows are not allowed on vehicles."
-      ]
+    "South_East": {
+      "agreement": true
     },
-    "East": {
-      "answer": [
-        "In East India, tinted windows are not allowed on vehicles."
-      ]
+    "South_West": {
+      "agreement": true
     },
-    "West": {
-      "answer": [
-        "In West India, tinted windows are not allowed on vehicles."
-      ]
+    "South_Central": {
+      "agreement": true
     },
-    "Central": {
-      "answer": [
-        "In Central India, tinted windows are not allowed on vehicles."
-      ]
+    "North_East": {
+      "agreement": true
     },
-    "pairwise_agreements": {
-      "South_North": {
-        "agreement": true
-      },
-      "South_East": {
-        "agreement": true
-      },
-      "South_West": {
-        "agreement": true
-      },
-      "South_Central": {
-        "agreement": true
-      },
-      "North_East": {
-        "agreement": true
-      },
-      "North_Central": {
-        "agreement": true
-      },
-      "East_Central": {
-        "agreement": true
-      },
-      "North_West": {
-        "agreement": true
-      },
-      "East_West": {
-        "agreement": true
-      },
-      "West_Central": {
-        "agreement": true
-      }
+    "North_Central": {
+      "agreement": true
     },
-    "universal_agreement": true
+    "East_Central": {
+      "agreement": true
+    },
+    "North_West": {
+      "agreement": true
+    },
+    "East_West": {
+      "agreement": true
+    },
+    "West_Central": {
+      "agreement": true
+    }
+  },
+  "universal_agreement": true
 }
 ```
 ## 🔧 Experiments
