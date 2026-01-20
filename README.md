@@ -1,4 +1,4 @@
-# 🇮🇳 INDICA
+# 🇮🇳 INDian Cultural commonsense Inventory with Cross-regional Answers (INDICA)
 
 This is the repository for [Common to _Whom_? Regional Cultural Commonsense and LLM Bias in India](https://arxiv.org/abs/2510.20543). 
 
