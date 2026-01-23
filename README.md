@@ -1,6 +1,6 @@
 # 🇮🇳 INDian Cultural commonsense Inventory with Cross-regional Answers (INDICA)
 
-This is the repository for [Common to _Whom_? Regional Cultural Commonsense and LLM Bias in India](https://arxiv.org/abs/2510.20543). 
+This is the repository for [Common to _Whom_? Regional Cultural Commonsense and LLM Bias in India](https://arxiv.org/abs/2601.15550). 
 
 **📦 Dataset:** Available on [Hugging Face](https://huggingface.co/datasets/Sangmitra-06/INDICA)
 
@@ -223,13 +223,13 @@ python Experiments/Evaluation/RAMCQ_bias_detection.py
 
 Please use the following bibtex citation if this paper was a part of your work, thank you!
 ```bibtex
-@misc{madhusudan2025commonwhomregionalcultural,
+@misc{madhusudan2026commonwhomregionalcultural,
       title={Common to Whom? Regional Cultural Commonsense and LLM Bias in India}, 
       author={Sangmitra Madhusudan and Trush Shashank More and Steph Buongiorno and Renata Dividino and Jad Kabbara and Ali Emami},
-      year={2025},
-      eprint={2510.20543},
+      year={2026},
+      eprint={2601.15550},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2510.20543}, 
+      url={https://arxiv.org/abs/2601.15550}, 
 }
 ```
