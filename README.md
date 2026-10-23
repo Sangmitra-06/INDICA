@@ -223,13 +223,27 @@ python Experiments/Evaluation/RAMCQ_bias_detection.py
 
 Please use the following bibtex citation if this paper was a part of your work, thank you!
 ```bibtex
-@misc{madhusudan2026commonwhomregionalcultural,
-      title={Common to Whom? Regional Cultural Commonsense and LLM Bias in India}, 
-      author={Sangmitra Madhusudan and Trush Shashank More and Steph Buongiorno and Renata Dividino and Jad Kabbara and Ali Emami},
-      year={2026},
-      eprint={2601.15550},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2601.15550}, 
+@inproceedings{madhusudan-etal-2026-common,
+    title = "Common to Whom? Regional Cultural Commonsense and {LLM} Bias in {I}ndia",
+    author = "Madhusudan, Sangmitra  and
+      More, Trush Shashank  and
+      Buongiorno, Steph  and
+      Dividino, Renata  and
+      Kabbara, Jad  and
+      Emami, Ali",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.249/",
+    doi = "10.18653/v1/2026.acl-long.249",
+    pages = "5474--5519",
+    ISBN = "979-8-89176-390-6",
+    abstract = "Existing cultural commonsense benchmarks treat nations as monolithic, assuming uniform practices within national boundaries. But does cultural commonsense hold uniformly within a nation, or does it vary at the sub-national level? We introduce \textbf{Indica}, the first benchmark designed to test LLMs' ability to address this question, focusing on India{---}a nation of 28 states, 8 union territories, and 22 official languages. We collect human-annotated answers from five Indian regions (North, South, East, West, and Central) across 515 questions spanning 8 domains of everyday life, yielding 1,630 region-specific question-answer pairs. Strikingly, only 39.4{\%} of questions elicit agreement across all five regions, demonstrating that cultural commonsense in India is predominantly regional, not national. We evaluate eight state-of-the-art LLMs and find two critical gaps: models achieve only 13.4{\%}{--}20.9{\%} accuracy on region-specific questions, and they exhibit geographic bias, over-selecting Central and North India as the ``default'' (selected 30-40{\%} more often than expected) while under-representing East and West. Beyond India, our methodology provides a generalizable framework for evaluating cultural commonsense in any culturally heterogeneous nation, from question design grounded in anthropological taxonomy, to regional data collection, to bias measurement."
 }
 ```
